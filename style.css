@@ -36,10 +36,16 @@
     background-color: #fff;
     box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
 }
+.btn_sort:active{
+    border: 1px solid #F5F1F0;
+    background-color: #F5F1F0;
+    color: #fff;
+}
 
 .btn_delete{
     margin-left: 10px;
     box-sizing: border-box;
+    border: 1px solid #fff;
     height: 35px;
     width: 30px;
     border-radius: 10px;
@@ -63,17 +69,16 @@
     color: #444;
 }
 
-.btn_sort:active{
-    background-color: #444;
-    color: #fff;
-}
+
 
 .btn_delete:hover{
+    border: 1px solid #444;
     border: #fff;
 }
 
 .btn_sort:hover{
     color: #f5426c;
+  
 }
 
 .btn_pagination{
