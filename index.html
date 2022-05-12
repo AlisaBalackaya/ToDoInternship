@@ -10,20 +10,20 @@
 <body>
     <div class="main_content">
         <h1>To do</h1>
-        <div>
+        <div class="input_container">
             <input type="text" placeholder="I want to..." class="input_task"/>
-            <button class="btn1">Add</button>
+            <button class="btn_add">Add</button>
         </div>
         <div class="sort_buttons">
             <div class="left_sort_buttons">
-                <button class="btn1">All</button>
-                <button class="btn1">Done</button>
-                <button class="btn1">Undone</button>
+                <button class="btn_sort">All</button>
+                <button class="btn_sort">Done</button>
+                <button class="btn_sort">Undone</button>
             </div>
             <div class="right_sort_buttons">
                 <div>Sort by date</div>
-                <button class="btn1">↓</button>
-                <button class="btn1">↑</button>
+                <button class="btn_sort">↓</button>
+                <button class="btn_sort">↑</button>
             </div>
             
         </div>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="right_item_task">
                     <span>10.04.2022</span>
-                    <button class="btn1" style="margin-left: 10px;">Delete</button>
+                    <button class="btn_delete"></button>
                 </div>
             </div>
     
@@ -46,7 +46,7 @@
                 </div>
                 <div class="right_item_task">
                     <span>11.04.2022</span>
-                    <button style="margin-left: 10px;" class="btn1">Delete</button>
+                    <button class="btn_delete"></button>
                 </div>
             </div>
     
@@ -57,14 +57,17 @@
                 </div>
                 <div class="right_item_task">
                     <span>13.04.2022</span>
-                    <button style="margin-left: 10px;" class="btn1">Delete</button>
+                    <button class="btn_delete"></button>
                 </div>
             </div>
         </div>
         
          <div class="list_buttons">
-            <button class="btn1"><</button>
-            <button class="btn1">></button>
+            <button class="btn_pagination"><</button>
+            <button class="btn_pagination">1</button>
+            <button class="btn_pagination">2</button>
+            <button class="btn_pagination">3</button>
+            <button class="btn_pagination">></button>
          </div>
         
         

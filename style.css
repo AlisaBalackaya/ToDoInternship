@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.input_container{
+    margin-left: 50px;
+}
+
 .input_task{
     font-family: inherit;
     line-height: 1.5;
@@ -10,9 +14,19 @@
     max-width: 300px;
 }
 
+.btn_add{
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid #F5F1F0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #444;
+    background-color: #F5F1F0;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+}
 
-
-.btn1{
+.btn_sort{
     box-sizing: border-box;
     height: 25px;
     border: 1px solid #fff;
@@ -22,17 +36,85 @@
     background-color: #fff;
     box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
 }
+
+.btn_delete{
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 35px;
+    width: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #F5F1F0;
+    background: url(https://www.svgrepo.com/show/244047/delete-trash.svg) center center/cover no-repeat;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+
+.btn_add:active{
+    background-color: #fff;
+    color: #444;
+    border: #fff;
+}
+
+.btn_add:hover{
+    color: rgb(250, 209, 209);
+}
+
+.btn_delete:active{
+    background-color: #fff;
+    color: #444;
+    border: #fff;
+}
+
+.btn_sort:active{
+    background-color: #444;
+    color: #fff;
+    border: #444;
+}
+
+.btn_delete:hover{
+    background-color: #444;
+}
+
+.btn_sort:hover{
+    color: rgb(250, 209, 209);
+}
+
+.btn_pagination{
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid #F5F1F0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #444;
+    background-color: #F5F1F0;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.btn_pagination:hover{
+    color: rgb(250, 209, 209);
+}
+
+.btn_pagination:active{
+    background-color: #fff;
+    color: #444;
+    border: #fff;
+}
+
 .sort_buttons{
     margin-top: 40px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .right_sort_buttons{
+    height: 30px;
     display: flex;
     margin-left: 7%;
+    align-items: center;
 }
 
 .task_container{
